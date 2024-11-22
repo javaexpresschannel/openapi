@@ -1,0 +1,17 @@
+DROP PROCEDURE IF EXISTS demo_database.getEmployeeList;
+DELIMITER &&  
+CREATE PROCEDURE `getAllProductsByName`(name varchar(255))
+BEGIN
+  select * FROM product where product_name=name;
+END &&
+DELIMITER ;
+
+CALL getAllProductsByName('One Plus 7t')
+
+https://javadeveloperzone.com/spring-boot/spring-boot-jpa-call-mysql-procedure/
+
+https://javadeveloperzone.com/spring-boot/spring-boot-liquibase-example/
+
+
+Swagger URL
+-----------

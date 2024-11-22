@@ -1,0 +1,79 @@
+# STS specific files
+.classpath
+.project
+.settings/
+
+# Maven specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.gradle
+*.gradle.kts
+
+# Logs
+logs/
+*.log
+
+# IntelliJ IDEA files (if used alongside STS)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse specific files
+*.swp
+*.swo
+*.bak
+*.orig
+*~
+.metadata/
+bin/
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# IDE-specific directories
+.vscode/
+
+# Temporary or backup files
+*.class
+*.war
+*.ear
+*.jar
+*.db
+*.sql
+*.gz
+*.zip
+*.7z
+*.tar
+*.tgz
+*.rar
+*.bak
+*.old
+*.tmp
+*.orig
+*.rej
+
+# Environment settings
+.env
+mvnw
+mvnw.cmd
+.factorypath
